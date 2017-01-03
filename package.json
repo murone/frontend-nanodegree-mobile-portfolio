@@ -1,0 +1,31 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "description": "Optimization project for FEND",
+  "author": {
+    "name": "Chris Murone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:murone/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "contributors": [],
+  "version": "0.0.1",
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-pagespeed": "^0.2.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.1.1",
+    "load-grunt-tasks": "^0.5.0",
+    "ngrok": "^0.1.94",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "imagemin": "^5.2.2"
+  }
+}
