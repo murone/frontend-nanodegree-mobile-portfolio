@@ -53,3 +53,17 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+
+### Changes made to achieve performance standard
+* Minify CSS
+* Inline CSS
+* Async analytics.js
+* Minify perfmatters.js (via google*provided version)
+* Move script loads to below body
+* Optimize all images with imagemin
+* Further optimize all images with google*provided versions
+* Create a thumbnail version of pizzeria.jpg
+* Store all cdn hosted images locally and use optimized versions
+* Refactor resizePizzas including changePizzaSizes to improve slider performance
+* Remove animation on scroll in favor of performance

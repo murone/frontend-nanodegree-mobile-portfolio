@@ -422,7 +422,7 @@ var resizePizzas = function(size) {
   changeSliderLabel(size);
 
 
-  // Iterates through pizza elements on the page and changes their widths
+  //Sets width variable in % based on slider. 
   function changePizzaSizes(size) {
     switch(size) {
       case "1":
@@ -438,9 +438,9 @@ var resizePizzas = function(size) {
         console.log("bug in sizeSwitcher");
     }
     var pizzas = document.querySelectorAll(".randomPizzaContainer");
+
+    // Iterates through pizza elements on the page and changes their widths
     for (var i = 0; i < pizzas.length; i++) {
-      // var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-      // var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
       pizzas[i].style.width = newwidth+'%';
     }
   }
